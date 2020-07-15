@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$header-color: #0066FF;
+$subtext-color: #919191;
+$description-color: #C1C1C1;
+
+.mid {
+    h2 {
+        text-align: center;
+        color: $subtext-color;
+        font-size: 225%;
+        font-family: "B612 Bold", sans-serif;
+        font-weight: 600;
+        margin-bottom: -10px;
+    }
+
+    h1 {
+        text-align: center;
+        color: $header-color;
+        font-family: "B612 Bold", sans-serif;
+        font-size: 275%;
+        font-weight: 900;
+        margin-bottom: 25px;
+    }
+    margin-bottom: 50px;
+    .card-container {
+        .col {
+            margin: 15px 0;
+            .card {
+                border-radius: 1rem !important;
+                padding-bottom: 10px;
+                box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+                border: none;
+                
+                .card-body {
+                    padding-left: 10%;
+                    padding-top: 5%;
+                }
+
+                .format {
+                    margin-top: 0px;
+                    margin-left: -15px;
+                    margin-right: 5px;
+                    background-color: $header-color;
+                    width: 7.5px;
+                    height: 50px;
+                    float: left;
+                    border-radius: 0 15px 0 15px;
+                }
+
+                .card-title {
+                    font-family: "B612 Bold", sans-serif;
+                    font-size: 175%;
+                    font-weight: 900;
+                    margin-right: -5%;
+                    color: $header-color;
+                    margin-bottom: 10px;
+                    line-height: 100%;
+                }
+
+                .card-subtitle {
+                    font-family: "B612", sans-serif;
+                    font-size: 125%;
+                    font-weight: 800;
+                    margin-bottom: 0px;
+                    color: $subtext-color;
+                    margin-bottom: 10px;
+                    line-height: 100%;
+                }
+
+                .card-img-top {
+                    padding: 5% 0;
+                }
+
+                .card-text {
+                    font-family: "B612 Bold", sans-serif;
+                    font-size: 115%;
+                    font-weight: 700;
+                    color: $description-color;
+
+                }
+            }
+        }
+    }
+}

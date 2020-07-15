@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$background-color: #232323;
+$header-color: #FFF;
+$subtext-color: #919191;
+$content-color: #0066FF;
+
+.footer {
+    width: 100%;
+    background-color: $background-color;
+    padding-bottom: 15px;
+    .format {
+        margin-top: 32.5px;
+        margin-left: -15px;
+        margin-right: 5px;
+        background-color: $content-color;
+        width: 7.5px;
+        height: 40px;
+        float: left;
+        border-radius: 0 15px 0 15px;
+    }
+
+    .col-md-3 {
+        padding: 0;
+        margin: 0 35px;
+    }
+
+    .container {
+        margin-left: 5%;
+    }
+
+    p {
+        font-family: "B612 Bold", sans-serif;
+        padding-top: 30px;
+        font-size: 200%;
+        font-weight: 900;
+        margin-bottom: 0px;
+        color: $header-color;
+    }
+
+    ul {
+        li {
+            a {
+                font-size: 125%;
+                padding: 5px 0;
+                width: 45%;
+                line-height: 150%;
+                color: $subtext-color;
+                font-weight: 400;
+            }
+
+            a:hover {
+                color: $header-color;
+                font-weight: 700;
+                text-shadow: #000;
+                cursor: pointer;
+                transition-duration: 0.3s;
+            }
+        }
+    }
+}
