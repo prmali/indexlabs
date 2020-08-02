@@ -5,38 +5,34 @@ $subtext-color: #919191;
 $description-color: #C1C1C1;
 
 .mid {
-    h2 {
+    .info-header-holder {
+        width: 50%;
+        display: flex;
+        margin: auto;
+        justify-content: center;
         text-align: center;
-        color: $subtext-color;
-        font-size: 225%;
-        font-family: "B612 Bold", sans-serif;
-        font-weight: 600;
-        margin-bottom: -10px;
+        margin-top: -15px;
+        margin-bottom: 25px;
     }
 
     h1 {
-        margin-top: 15px;
-        text-align: center;
         color: $header-color;
-        font-family: "B612 Bold", sans-serif;
         font-size: 275%;
         font-weight: 900;
-        width: 50%;
-        margin: auto;
-        margin-bottom: 25px;
     }
     margin-bottom: 50px;
     .card-container {
         .col {
-            margin: 15px 0;
+            margin: 30px 0;
             .card {
                 border-radius: 1rem !important;
                 padding-bottom: 10px;
-                box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+                box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2);
                 border: none;
                 .card-body {
                     padding-left: 10%;
                     padding-top: 5%;
+                    height: 500px;
                 }
 
                 .format {
@@ -45,28 +41,17 @@ $description-color: #C1C1C1;
                     margin-right: 5px;
                     background-color: $header-color;
                     width: 7.5px;
-                    height: 50px;
+                    height: 65px;
                     float: left;
                     border-radius: 0 15px 0 15px;
                 }
 
                 .card-title {
-                    font-family: "B612 Bold", sans-serif;
-                    font-size: 175%;
+                    font-size: 190%;
                     font-weight: 900;
                     margin-right: -5%;
                     width: 220px;
                     color: $header-color;
-                    margin-bottom: 10px;
-                    line-height: 100%;
-                }
-
-                .card-subtitle {
-                    font-family: "B612", sans-serif;
-                    font-size: 125%;
-                    font-weight: 800;
-                    margin-bottom: 0px;
-                    color: $subtext-color;
                     margin-bottom: 10px;
                     line-height: 100%;
                 }
@@ -82,7 +67,7 @@ $description-color: #C1C1C1;
                     margin-left: 45px;
                     width: 65%;
                     margin-top: 35px;
-                    margin-bottom: 67.3px;
+                    margin-bottom: 68.3px;
                 }
 
                 .marketIcon {
@@ -95,8 +80,7 @@ $description-color: #C1C1C1;
 
                 .card-text {
                     margin-top: -50px;
-                    font-family: "B612 Bold", sans-serif;
-                    font-size: 130%;
+                    font-size: 150%;
                     font-weight: 700;
                     color: $subtext-color;
                 }
@@ -107,14 +91,13 @@ $description-color: #C1C1C1;
         width: 100%;
         margin: auto;
         text-align: center;
-        font-family: "B612", sans-serif;
-        margin-top: 15px;
+        margin-top: -10px;
         font-size: 30px;
         font-weight: 800;
         color: $header-color;
     
         .btn {
-            font-family: "B612", sans-serif;
+            margin-top: -15px;
             font-size: 35px;
             font-weight: 800;
             background-color: $header-color;

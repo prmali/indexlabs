@@ -22,7 +22,9 @@ class Info extends React.Component {
     render() {
         return(
             <div className="mid">
-                <h1>Decentralized Indexes for Cryptocurrency</h1>
+                <div className="info-header-holder">
+                    <h1>Decentralized Indexes for Cryptocurrency</h1>
+                </div>
                 <Container className="card-container">
                     <Row md="3" sm="1" xs="1">
                         <Col>
@@ -50,7 +52,7 @@ class Info extends React.Component {
                                 <CardBody>
                                     <span><div className="format"></div><CardTitle>Decentralized Governance</CardTitle></span>
                                     <CardImg className="governanceIcon" top src={ governanceIcon } />
-                                    <CardText>Full User Control Over Crypto Indexes Made Possible by a Platform Governance Token</CardText>
+                                    <CardText>Full User Control Over Indexes with a Platform Governance Token</CardText>
                                 </CardBody>
                             </Card>
                         </Col>

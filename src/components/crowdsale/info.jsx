@@ -6,53 +6,12 @@ import {
 } from 'reactstrap';
 import './styling/info.scss';
 const mainImg = require('./../../Main.png');
+const allocationImg = require('./../../token-allocation.png');
 
 class CrowdsaleInfo extends React.Component {
     render() {
         return (
             <div className="crowdsale-container">
-                <Container>
-                    <Row>
-                        <Col>
-                            <h1 className="primary">Presale</h1>
-                            <p className="subtext">08/01/2020 - 10/25/2020</p>
-                            <p className="primary">0.05 ETH / 1 TMX</p>
-                        </Col>
-
-                        <Col>
-                            <h1 className="primary">Public</h1>
-                            <p className="subtext">11/25/2020 - 02/25/2021</p>
-                            <p className="primary">0.07 ETH / 1 TMX</p>
-                        </Col>
-                    </Row>
-                </Container>
-                <h1 className="crowdsale-heading">Crowdsale Allocation</h1>
-                <div className="bar">
-                    <span className="presale">
-                        <p className="location-desc">Presale</p>
-                        <div className="amount">
-                            <p>200000 TMX</p>
-                        </div>
-                    </span>
-                    <span className="softcap">
-                        <p className="location-desc">Softcap</p>
-                        <div className="amount">
-                            <p>1500000 TMX</p>
-                        </div>
-                    </span>
-                    <span className="hardcap">
-                        <p className="location-desc">Hardcap</p>
-                        <div className="amount">
-                            <p>2500000 TMX</p>
-                        </div>
-                    </span>
-                    <span className="remaining-supply">
-                        <p className="location-desc">Remaining Supply</p>
-                        <div className="amount">
-                            <p>5000000 TMX</p>
-                        </div>
-                    </span>
-                </div>
                 <div className="sub-bar">
                     <div>
                         <span>
@@ -64,6 +23,10 @@ class CrowdsaleInfo extends React.Component {
                         </span>
                     </div>
                 </div>
+                <div className="bar">
+                    <img src={ allocationImg } alt="TMX Allocation" />
+                </div>
+                
                 <div className="sale-breaker">
                     <Container>
                         <Row>
