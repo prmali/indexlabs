@@ -12,7 +12,7 @@ import {
     Link,
 } from 'react-router-dom';
 
-import logo from '../../Logo.png';
+import logo from '../../assets/Logo.png';
 import './styling/topbar.scss';
 
 const Topbar = (props) => {

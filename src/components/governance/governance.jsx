@@ -11,7 +11,6 @@ class GovernanceInfo extends React.Component {
                     The token gives governance platform users full control over all sector crypto indexes. 
                     Holders of this token will be distributed all tokens of newly created crypto indexes.
                 </h2>
-                
             </div>
         )
     }

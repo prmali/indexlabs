@@ -5,8 +5,8 @@ import {
     Col
 } from 'reactstrap';
 import './styling/info.scss';
-const mainImg = require('./../../Main.png');
-const allocationImg = require('./../../token-allocation.png');
+const mainImg = require('./../../assets/Main.png');
+const allocationImg = require('./../../assets/token-allocation.png');
 
 class CrowdsaleInfo extends React.Component {
     render() {

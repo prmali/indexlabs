@@ -14,9 +14,9 @@ import {
     Link,
 } from 'react-router-dom';
 import './styling/info.scss';
-const governanceIcon = require('./../../Governance-Icon.png');
-const marketIcon = require('./../../Market-Icon.png');
-const globeIcon = require('./../../Globe-Icon.png');
+const governanceIcon = require('./../../assets/Governance-Icon.png');
+const marketIcon = require('./../../assets/Market-Icon.png');
+const globeIcon = require('./../../assets/Globe-Icon.png');
 
 class Info extends React.Component {
     render() {
