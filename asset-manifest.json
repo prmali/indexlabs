@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.be3d1c19.chunk.css",
-    "main.js": "/static/js/main.1ee5ec84.chunk.js",
-    "main.js.map": "/static/js/main.1ee5ec84.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.435b1587.js",
-    "runtime-main.js.map": "/static/js/runtime-main.435b1587.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.73c7bf1f.chunk.js": "/static/js/2.73c7bf1f.chunk.js",
-    "static/js/2.73c7bf1f.chunk.js.map": "/static/js/2.73c7bf1f.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7621d4325e4cb9c6d513a8b0b95121e5.js": "/precache-manifest.7621d4325e4cb9c6d513a8b0b95121e5.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.be3d1c19.chunk.css.map": "/static/css/main.be3d1c19.chunk.css.map",
-    "static/js/2.73c7bf1f.chunk.js.LICENSE.txt": "/static/js/2.73c7bf1f.chunk.js.LICENSE.txt",
-    "static/media/IndexLabs_Colored.png": "/static/media/IndexLabs_Colored.eb58f058.png",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/indexlabs/static/css/main.a2489b53.chunk.css",
+    "main.js": "/indexlabs/static/js/main.55255195.chunk.js",
+    "main.js.map": "/indexlabs/static/js/main.55255195.chunk.js.map",
+    "runtime-main.js": "/indexlabs/static/js/runtime-main.d33f854c.js",
+    "runtime-main.js.map": "/indexlabs/static/js/runtime-main.d33f854c.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/indexlabs/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.dfdda7d0.chunk.js": "/indexlabs/static/js/2.dfdda7d0.chunk.js",
+    "static/js/2.dfdda7d0.chunk.js.map": "/indexlabs/static/js/2.dfdda7d0.chunk.js.map",
+    "index.html": "/indexlabs/index.html",
+    "precache-manifest.b2176fc10139b9f65ae20a3a8abb0b0a.js": "/indexlabs/precache-manifest.b2176fc10139b9f65ae20a3a8abb0b0a.js",
+    "service-worker.js": "/indexlabs/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/indexlabs/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.a2489b53.chunk.css.map": "/indexlabs/static/css/main.a2489b53.chunk.css.map",
+    "static/js/2.dfdda7d0.chunk.js.LICENSE.txt": "/indexlabs/static/js/2.dfdda7d0.chunk.js.LICENSE.txt",
+    "static/media/Globe-Icon.png": "/indexlabs/static/media/Globe-Icon.6a6afee9.png",
+    "static/media/Governance-Icon.png": "/indexlabs/static/media/Governance-Icon.e4d14d11.png",
+    "static/media/Logo.png": "/indexlabs/static/media/Logo.c0956532.png",
+    "static/media/Main.png": "/indexlabs/static/media/Main.bb85daa9.png",
+    "static/media/Market-Icon.png": "/indexlabs/static/media/Market-Icon.15ec2732.png",
+    "static/media/roadmap-image.png": "/indexlabs/static/media/roadmap-image.a3f7a4ac.png",
+    "static/media/token-allocation.png": "/indexlabs/static/media/token-allocation.9d241ed1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.435b1587.js",
+    "static/js/runtime-main.d33f854c.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.73c7bf1f.chunk.js",
-    "static/css/main.be3d1c19.chunk.css",
-    "static/js/main.1ee5ec84.chunk.js"
+    "static/js/2.dfdda7d0.chunk.js",
+    "static/css/main.a2489b53.chunk.css",
+    "static/js/main.55255195.chunk.js"
   ]
 }
