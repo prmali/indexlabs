@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$primary-color: #0066FF;
+$subtext-color: #919191;
+
+.crowdsale-container {
+    text-align: center;
+    .primary {
+        color: $primary-color;
+        font-family: "B612 Bold", sans-serif;
+    }
+    .subtext {
+        margin: 0;
+        color: $subtext-color;
+        font-weight: 800;
+        font-family: "B612", sans-serif;
+    }
+    h1 {
+        &.primary {
+            font-weight: 800;
+            font-size: 40px;
+        }
+    }
+    p {
+        &.primary {
+            font-weight: 800;
+            font-size: 20px;
+        }
+        &.subtext {
+            font-size: 20px;
+        }
+    }
+    .crowdsale-heading {
+        margin-top: 25px;
+        font-family: "B612 Bold", sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        color: $primary-color;
+    }
+    .bar {
+        height: 50px;
+        width: 70%;
+        margin: 15px 15%;
+        margin-bottom: 45px;
+        border-radius: 50px;
+        color: white;
+        font-family: "B612 Bold", sans-serif;
+        font-size: 25px;
+        font-weight: 800;
+        box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+        position: relative;
+        text-align: right;
+        margin-bottom: 150px;
+        white-space: nowrap;
+        .location-desc {
+            padding-top: 5px;
+            padding-right: 25px;
+        }
+        .amount {
+            color: $primary-color;
+            text-align: right;
+            font-size: 20px;
+            p {
+                padding: 0;
+                margin: 0;
+            }
+        }
+        .presale {
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 50px;
+            height: 100%;
+            width: 15%;
+            background-color: #0066FF;
+            z-index: 4;
+            div {
+                p {
+                    padding-left: 5em;
+                }
+            }
+        }
+        .softcap {
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 50px;
+            height: 100%;
+            width: 30%;
+            background-color: #2A7FFF;
+            z-index: 3;
+            div {
+                p {
+                    padding-left: 15em;
+                }
+            }
+        }
+        .hardcap {
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 50px;
+            height: 100%;
+            width: 50%;
+            background-color: #569AFF;
+            z-index: 2;
+            div {
+                p {
+                    padding-left: 28.5em;
+                }
+            }
+        }
+        .remaining-supply {
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 50px;
+            height: 100%;
+            width: 100%;
+            background-color: #84B5FF;
+            z-index: 1;
+            div {
+                p {
+                    padding-left: 61.5em;
+                }
+            }
+        }
+    }
+    .sub-bar {
+        margin: 0 20%;
+        float: center;
+        text-align: left;
+        img {
+            height: 70px;
+            float: left;
+        }
+        h1 {
+            font-size: 30px;
+            margin-bottom: 0;
+            margin-left: 2.55em;
+        }
+        p {
+            font-size: 25px;
+            margin-bottom: 50px;
+            padding-left: 3.1em;
+        }
+    }
+    .sale-breaker {
+        background-color: $primary-color;
+        h1 {
+            color: white;
+        }
+        p {
+            color: white;
+        }
+    }
+}
