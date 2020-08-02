@@ -8,26 +8,29 @@ import {
     CardText,
     CardBody,
     CardTitle,
-    CardSubtitle,
     Button,
 } from 'reactstrap';
+import {
+    Link,
+} from 'react-router-dom';
 import './styling/info.scss';
+const governanceIcon = require('./../../Governance-Icon.png');
+const marketIcon = require('./../../Market-Icon.png');
+const globeIcon = require('./../../Globe-Icon.png');
 
 class Info extends React.Component {
     render() {
         return(
             <div className="mid">
-                <h2>We are an</h2>
-                <h1>Ecosystem</h1>
+                <h1>Decentralized Indexes for Cryptocurrency</h1>
                 <Container className="card-container">
                     <Row md="3" sm="1" xs="1">
                         <Col>
                             <Card>
                                 <CardBody>
-                                    <span><div className="format"></div><CardTitle>Index Linking</CardTitle></span>
-                                    <CardSubtitle>Sector Creation</CardSubtitle>
-                                    <CardImg top width="100%" src="/assets/318x180.svg" />
-                                    <CardText>Simple description covering base details regarding the header</CardText>
+                                    <span><div className="format"></div><CardTitle>Crypto Indexes</CardTitle></span>
+                                    <CardImg className="globeIcon" top src={ globeIcon } />
+                                    <CardText>Tokenized, Tradable Indexes Brought to the World of Cryptocurrency</CardText>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -35,10 +38,9 @@ class Info extends React.Component {
                         <Col>
                             <Card>
                                 <CardBody>
-                                    <span><div className="format"></div><CardTitle>Community Driven</CardTitle></span>
-                                    <CardSubtitle>Sector Creation</CardSubtitle>
-                                    <CardImg top width="100%" src="/assets/318x180.svg" />
-                                    <CardText>Simple description covering base details regarding the header</CardText>
+                                    <span><div className="format"></div><CardTitle>Market-Based Assets</CardTitle></span>
+                                    <CardImg className="marketIcon" top width="100%" src={ marketIcon } />
+                                    <CardText>Index-Based Assets Built to Track and Trade the Cryptocurrency Market</CardText>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -46,10 +48,9 @@ class Info extends React.Component {
                         <Col>
                             <Card>
                                 <CardBody>
-                                    <span><div className="format"></div><CardTitle>Community Driven</CardTitle></span>
-                                    <CardSubtitle>Sector Creation</CardSubtitle>
-                                    <CardImg top width="100%" src="/assets/318x180.svg" />
-                                    <CardText>Simple description covering base details regarding the header</CardText>
+                                    <span><div className="format"></div><CardTitle>Decentralized Governance</CardTitle></span>
+                                    <CardImg className="governanceIcon" top src={ governanceIcon } />
+                                    <CardText>Full User Control Over Crypto Indexes Made Possible by a Platform Governance Token</CardText>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -61,9 +62,9 @@ class Info extends React.Component {
                         <div className="block block2"></div>
                         <p>learn more</p>
                     </span>
-                </div>
 
-                <Button>Whitepaper</Button>
+                    <Button tag={Link} to="/whitepaper">Whitepaper</Button>
+                </div>
             </div>
         );
     }

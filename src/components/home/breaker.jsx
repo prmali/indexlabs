@@ -1,7 +1,5 @@
 import React from 'react';
-import { 
-    Button,
-    Container,
+import {
     Row,
     Col
 } from 'reactstrap';

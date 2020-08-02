@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
     Container,
     Row,
@@ -7,6 +7,9 @@ import {
     NavItem,
     NavLink
 } from 'reactstrap';
+import {
+    Link,
+} from 'react-router-dom';
 import './styling/footer.scss';
 
 class Footer extends React.Component {
@@ -19,11 +22,9 @@ class Footer extends React.Component {
                             <span><div className="format"></div><p>Resources</p></span>
                             <Nav vertical>
                                 <NavItem>
-                                    <NavLink to="/">Dashboard</NavLink>
-                                    <NavLink to="/">Sectors</NavLink>
-                                    <NavLink to="/">Developers</NavLink>
-                                    <NavLink to="/">Ethereum</NavLink>
-                                    <NavLink to="/">Merch</NavLink>
+                                    <NavLink tag={Link} to="/governance">Governance</NavLink>
+                                    <NavLink tag={Link} to="/indexes">Indexes</NavLink>
+                                    <NavLink href="https://ethereum.org" target="_blank">Ethereum</NavLink>
                                 </NavItem>
                             </Nav>
                         </Col>
@@ -32,12 +33,9 @@ class Footer extends React.Component {
                             <span><div className="format"></div><p>Plans</p></span>
                             <Nav vertical>
                                 <NavItem>
-                                    <NavLink to="/">Whitepaper</NavLink>
-                                    <NavLink to="/">Roadmap</NavLink>
-                                    <NavLink to="/">Pre-ICO</NavLink>
-                                    <NavLink to="/">ICO</NavLink>
-                                    <NavLink to="/">Voting Initative</NavLink>
-                                    <NavLink to="/">Future</NavLink>
+                                    <NavLink tag={Link} to="/whitepaper">Whitepaper</NavLink>
+                                    <NavLink tag={Link} to="/roadmap">Roadmap</NavLink>
+                                    <NavLink tag={Link} to="/crowdsale">Crowdsale</NavLink>
                                 </NavItem>
                             </Nav>
                         </Col>
@@ -46,8 +44,8 @@ class Footer extends React.Component {
                             <span><div className="format"></div><p>Policies</p></span>
                             <Nav vertical>
                                 <NavItem>
-                                    <NavLink to="/">Privacy</NavLink>
-                                    <NavLink to="/">Useage</NavLink>
+                                    <NavLink tag={Link} to="/">Privacy</NavLink>
+                                    {/* <NavLink tag={Link} to="/">Usage</NavLink> */}
                                 </NavItem>
                             </Nav>
                         </Col>

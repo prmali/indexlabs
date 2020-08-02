@@ -6,11 +6,13 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    NavbarText
+    NavLink
 } from 'reactstrap';
+import {
+    Link,
+} from 'react-router-dom';
 
-import logo from '../../IndexLabs_Colored.png';
+import logo from '../../Logo.png';
 import './styling/topbar.scss';
 
 const Topbar = (props) => {
@@ -26,22 +28,22 @@ const Topbar = (props) => {
                 <Collapse isOpen={collapsed} navbar>
                     <Nav className="ml-auto nav-item-container" pullRight navbar>
                         <NavItem>
-                            <NavLink to="/">Home</NavLink>
+                            <NavLink tag={Link} to="/">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/">ICO</NavLink>
+                            <NavLink tag={Link} to="/crowdsale">Crowdsale</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/">Whitepaper</NavLink>
+                            <NavLink tag={Link} to="/whitepaper">Whitepaper</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/">Overview</NavLink>
+                            <NavLink tag={Link} to="/roadmap">Roadmap</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/">Roadmap</NavLink>
+                            <NavLink tag={Link} to="/indexes">Indexes</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/">Sector Initiative</NavLink>
+                            <NavLink tag={Link} to="/governance">Governance</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
@@ -49,5 +51,4 @@ const Topbar = (props) => {
         </div>
     );
 }
-
 export default Topbar;

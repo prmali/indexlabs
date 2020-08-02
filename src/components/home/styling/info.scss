@@ -15,11 +15,14 @@ $description-color: #C1C1C1;
     }
 
     h1 {
+        margin-top: 15px;
         text-align: center;
         color: $header-color;
         font-family: "B612 Bold", sans-serif;
         font-size: 275%;
         font-weight: 900;
+        width: 50%;
+        margin: auto;
         margin-bottom: 25px;
     }
     margin-bottom: 50px;
@@ -31,7 +34,6 @@ $description-color: #C1C1C1;
                 padding-bottom: 10px;
                 box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
                 border: none;
-                
                 .card-body {
                     padding-left: 10%;
                     padding-top: 5%;
@@ -53,6 +55,7 @@ $description-color: #C1C1C1;
                     font-size: 175%;
                     font-weight: 900;
                     margin-right: -5%;
+                    width: 220px;
                     color: $header-color;
                     margin-bottom: 10px;
                     line-height: 100%;
@@ -69,17 +72,57 @@ $description-color: #C1C1C1;
                 }
 
                 .card-img-top {
+                    padding-top: 15px;
                     padding: 5% 0;
+                    margin-left: -2.3em;
+                    width: 100%;
+                }
+
+                .globeIcon {
+                    margin-left: 45px;
+                    width: 65%;
+                    margin-top: 35px;
+                    margin-bottom: 67.3px;
+                }
+
+                .marketIcon {
+                    margin-left: -1em;
+                }
+
+                .governanceIcon {
+                    margin-left: -15px;
                 }
 
                 .card-text {
+                    margin-top: -50px;
                     font-family: "B612 Bold", sans-serif;
-                    font-size: 115%;
+                    font-size: 130%;
                     font-weight: 700;
-                    color: $description-color;
-
+                    color: $subtext-color;
                 }
             }
+        }
+    }
+    .learnContainer {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        font-family: "B612", sans-serif;
+        margin-top: 15px;
+        font-size: 30px;
+        font-weight: 800;
+        color: $header-color;
+    
+        .btn {
+            font-family: "B612", sans-serif;
+            font-size: 35px;
+            font-weight: 800;
+            background-color: $header-color;
+            height: 65px;
+            width: 250px;
+            border-radius: 15px;
+            border-style: none;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
         }
     }
 }

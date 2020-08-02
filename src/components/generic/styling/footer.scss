@@ -12,7 +12,6 @@ $content-color: #0066FF;
     .format {
         margin-top: 32.5px;
         margin-left: -15px;
-        margin-right: 5px;
         background-color: $content-color;
         width: 7.5px;
         height: 40px;
@@ -20,13 +19,9 @@ $content-color: #0066FF;
         border-radius: 0 15px 0 15px;
     }
 
-    .col-md-3 {
-        padding: 0;
-        margin: 0 35px;
-    }
-
     .container {
         margin-left: 5%;
+        width: 90%;
     }
 
     p {
