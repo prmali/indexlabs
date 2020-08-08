@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { 
+  BrowserRouter as Router, 
+  Route, 
+  Switch,
+  Redirect
+} from 'react-router-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,16 +21,17 @@ import Topbar from './components/generic/topbar';
 import Footer from './components/generic/footer';
 
 ReactDOM.render(
-  <Router>
+  <Router basename="/">
       <Topbar />
-      <div>
+      <Switch>
         <Route exact path="/" component={ Home } />
         <Route path="/crowdsale" component={ Crowdsale } />
         <Route path="/whitepaper" component={ Whitepaper } />
         <Route path="/roadmap" component={ Roadmap } />
         <Route path="/governance" component={ Governance } />
         <Route path="/indexes" component={ Indexes } />
-      </div>
+        <Route render={() => <Redirect to={{pathname: "/"}} />} />
+      </Switch>
       <Footer />
   </Router>,
   document.getElementById('root')

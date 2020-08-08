@@ -1,6 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 $bg-color: #0066FF;
 
 .breaker {
     background: $bg-color;
-    height: 360px;
+    .row {
+        margin: 0;
+    }
+    h1 {
+        color: white;
+        font-weight: 800;
+        font-size: 55px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .roadmap {
+        background-color: rgba(255, 255, 255, 0.1);
+        div {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        .btn {
+            margin: 85px 0;
+            margin-bottom: 100px;
+            font-size: 35px;
+            font-weight: 800;
+            background-color: $bg-color;
+            height: 65px;
+            width: 250px;
+            border-radius: 15px;
+            border-style: none;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+        }
+    }
 }

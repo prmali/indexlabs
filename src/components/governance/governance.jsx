@@ -9,7 +9,7 @@ class GovernanceInfo extends React.Component {
                 <h2>
                     The key piece in decentralizing the creation and management of indexes. 
                     The token gives governance platform users full control over all sector crypto indexes. 
-                    Holders of this token will be distributed all tokens of newly created crypto indexes.
+                    Holders of this token will be distributed all tokens of newly created sector crypto indexes.
                 </h2>
             </div>
         )

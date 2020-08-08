@@ -1,6 +1,10 @@
 $primary-color: #0066FF;
 $subtext-color: #919191;
 
+body {
+    background-color: #efefef;
+}
+
 .crowdsale-container {
     text-align: center;
     .primary {
@@ -27,8 +31,11 @@ $subtext-color: #919191;
         }
     }
     .bar {
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
         img {
-            height: 680px;
+            height: 600px;
         }
     }
     .sub-bar {
@@ -53,9 +60,12 @@ $subtext-color: #919191;
         background-color: $primary-color;
         h1 {
             color: white;
+            margin-top: 30px;
+            font-size: 55px;
         }
         p {
             color: white;
+            font-size: 35px;
         }
     }
 }

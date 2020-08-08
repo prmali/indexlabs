@@ -2,7 +2,7 @@ import React from 'react';
 import {
     Container,
     Row,
-    Col
+    Col,
 } from 'reactstrap';
 import './styling/info.scss';
 const mainImg = require('./../../assets/Main.png');
@@ -18,7 +18,9 @@ class CrowdsaleInfo extends React.Component {
                             <img src={ mainImg } alt="TMX Logo" />
                             <div>
                                 <h1 className="primary">Total Market Index [TMX]</h1>
-                                <p className="subtext">Represents the index of the total cryptocurrency market cap</p>
+                                <p className="subtext">The first tokenized, tradable index in the cryptocurrency market. 
+                                The index tracks the performance and growth of the cryptocurrency market as a whole with the ability to factor in new 
+                                projects arriving in the market.</p>
                             </div>
                         </span>
                     </div>
@@ -29,13 +31,14 @@ class CrowdsaleInfo extends React.Component {
                 
                 <div className="sale-breaker">
                     <Container>
-                        <Row>
+                        <Row md="3" sm="1" xs="1">
                             <Col className="presale-container">
                                 <h1 className="primary">Presale</h1>
                                 <p className="subtext">description1</p>
                                 <p className="subtext">description1</p>
                                 <p className="subtext">description1</p>
                             </Col>
+                            <Col />
                             <Col className="crowdsale-container">
                                 <h1 className="primary">Public</h1>
                                 <p className="subtext">description1</p>
