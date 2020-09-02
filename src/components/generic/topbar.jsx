@@ -31,7 +31,7 @@ const Topbar = (props) => {
                             <NavLink tag={Link} to="/">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink tag={Link} to="/crowdsale">Crowdsale</NavLink>
+                            <NavLink tag={Link} to="/tokensale">Token Sale</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink tag={Link} to="/whitepaper">Whitepaper</NavLink>

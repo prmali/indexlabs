@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 $active-color: #0066FF;
 $inactive-color: #919191;
 
 .topbar {
+    font-family: "Poppins", sans-serif;
     padding: 1% 5%;
     .navbar-brand {
         float: center;
@@ -27,11 +28,12 @@ $inactive-color: #919191;
         color: $inactive-color;
         padding: 0 10px;
         font-size: 125%;
-        font-weight: 800;
+        font-weight: 600;
 
         a:hover {
             color: $active-color !important;
             cursor: pointer;
+            text-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
             transition-duration: 0.3s;
         }
     }

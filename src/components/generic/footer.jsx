@@ -35,20 +35,21 @@ class Footer extends React.Component {
                                 <NavItem>
                                     <NavLink tag={Link} to="/whitepaper">Whitepaper</NavLink>
                                     <NavLink tag={Link} to="/roadmap">Roadmap</NavLink>
-                                    <NavLink tag={Link} to="/crowdsale">Crowdsale</NavLink>
+                                    <NavLink tag={Link} to="/tokensale">Token Sale</NavLink>
                                 </NavItem>
                             </Nav>
                         </Col>
 
-                        <Col>
+                        {/* <Col>
                             <span><div className="format"></div><p>Policies</p></span>
                             <Nav vertical>
                                 <NavItem>
                                     <NavLink tag={Link} to="/">Privacy</NavLink>
-                                    {/* <NavLink tag={Link} to="/">Usage</NavLink> */}
+                                    <NavLink tag={Link} to="/">Terms &amp; Conditions</NavLink>
+                                    <NavLink tag={Link} to="/">Usage</NavLink>
                                 </NavItem>
                             </Nav>
-                        </Col>
+                        </Col> */}
                     </Row>
                 </Container>
             </div>

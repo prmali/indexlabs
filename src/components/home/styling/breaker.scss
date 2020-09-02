@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 $bg-color: #0066FF;
 
 .breaker {
+    font-family: "Poppins", sans-serif;
     width: 100%;
     background: $bg-color;
     .row {
@@ -19,22 +20,32 @@ $bg-color: #0066FF;
         .container {
             margin-top: 10px;
             text-align: center;
+
             .section {
                 vertical-align: middle;
                 display: inline-block;
                 align-items: center;
-                margin: 0 25px;
+                margin: 0 30px;
             }
             .sec {
                 color: rgba(255, 255, 255, 0.7);
-                font-weight: 800;
-                font-size: 20px;
+                font-weight: 700;
+                font-size: 17.5px;
+                width: 130px;
                 .node {
                     margin: auto;
-                    height: 65px;
-                    width: 65px;
+                    height: 80px;
+                    width: 80px;
                     background-color: rgba(255, 255, 255, 0.7);
                     border-radius: 50%;
+                    margin-bottom: 15px;
+                    font-size: 25px;
+                    color: white;
+                    font-size: 20px;
+                    line-height: 25px;
+                    p {
+                        padding-top: 15px;
+                    }
                 }
             }
             .prim {
@@ -43,10 +54,17 @@ $bg-color: #0066FF;
                 font-size: 25px;
                 .node {
                     margin: auto;
-                    height: 80px;
-                    width: 80px;
+                    height: 100px;
+                    width: 100px;
                     background-color: white;
                     border-radius: 50%;
+                    margin-bottom: 15px;
+                    color: $bg-color;
+                    font-size: 30px;
+                    line-height: 35px;
+                    p {
+                        padding-top: 12.5px;
+                    }
                 }
             }
         }
@@ -63,20 +81,24 @@ $bg-color: #0066FF;
             margin-top: 60px;
             margin-bottom: 100px;
             font-size: 35px;
-            font-weight: 800;
+            font-weight: 700;
             background-color: $bg-color;
             height: 65px;
             width: 250px;
             border-radius: 15px;
             border-style: none;
             box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+        } 
+        .btn-secondary:hover {
+            box-shadow: 0 25px 35px rgba(0, 0, 0, 0.4);
+            transition-duration: 0.15s;
         }
     }
 
     .community {
         div {
             margin: auto;
-            margin-top: 60px;
+            margin-top: 40px;
             text-align: center;
         }
         .media {
@@ -87,13 +109,29 @@ $bg-color: #0066FF;
             border-radius: 50%;
             display: inline-block;
             margin-bottom: 50px;
+            position: relative;
+            text-align: center;
+            justify-content: center;
+
             p {
                 display: flex;
                 justify-content: center;
-                margin-top: 80px;
+                margin-top: 25px;
                 color: white;
-                font-weight: 800;
+                font-weight:600;
                 font-size: 25px;
+            }
+
+            img {
+                margin-top: 15px;
+                height: 60%;
+                width: 60%;
+            }
+        }
+
+        .email{
+            img {
+                padding: 5px 0;
             }
         }
     }

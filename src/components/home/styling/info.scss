@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 $header-color: #0066FF;
 $subtext-color: #919191;
 $description-color: #C1C1C1;
 
 .mid {
+    font-family: "Poppins", sans-serif;
     .info-header-holder {
         width: 50%;
         display: flex;
@@ -17,7 +18,7 @@ $description-color: #C1C1C1;
     h1 {
         color: $header-color;
         font-size: 275%;
-        font-weight: 900;
+        font-weight: 800;
     }
     margin-bottom: 50px;
     .card-container {
@@ -31,7 +32,7 @@ $description-color: #C1C1C1;
                 .card-body {
                     padding-left: 10%;
                     padding-top: 5%;
-                    height: 500px;
+                    height: 520px;
                 }
 
                 .format {
@@ -47,7 +48,7 @@ $description-color: #C1C1C1;
 
                 .card-title {
                     font-size: 190%;
-                    font-weight: 900;
+                    font-weight: 700;
                     margin-right: -5%;
                     width: 220px;
                     color: $header-color;
@@ -80,7 +81,7 @@ $description-color: #C1C1C1;
                 .card-text {
                     margin-top: -50px;
                     font-size: 150%;
-                    font-weight: 700;
+                    font-weight: 600;
                     color: $subtext-color;
                 }
             }
@@ -92,13 +93,13 @@ $description-color: #C1C1C1;
         text-align: center;
         margin-top: -10px;
         font-size: 30px;
-        font-weight: 800;
+        font-weight: 600;
         color: $header-color;
         margin-bottom: -20px;
         .btn {
             margin-top: -15px;
             font-size: 35px;
-            font-weight: 800;
+            font-weight: 700;
             background-color: $header-color;
             height: 65px;
             width: 250px;

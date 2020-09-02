@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 $background-color: #232323;
 $header-color: #FFF;
@@ -6,6 +6,7 @@ $subtext-color: #919191;
 $content-color: #0066FF;
 
 .footer {
+    font-family: "Poppins", sans-serif;
     width: 100%;
     background-color: $background-color;
     padding-bottom: 50px;
@@ -27,7 +28,7 @@ $content-color: #0066FF;
     p {
         padding-top: 30px;
         font-size: 200%;
-        font-weight: 900;
+        font-weight: 700;
         margin-bottom: 0px;
         color: $header-color;
     }
@@ -40,7 +41,7 @@ $content-color: #0066FF;
                 width: 45%;
                 line-height: 150%;
                 color: $subtext-color;
-                font-weight: 400;
+                font-weight: 500;
             }
 
             a:hover {
@@ -48,7 +49,7 @@ $content-color: #0066FF;
                 font-weight: 700;
                 text-shadow: #000;
                 cursor: pointer;
-                transition-duration: 0.3s;
+                transition-duration: 0.15s;
             }
         }
     }

@@ -10,6 +10,12 @@ import {
 
 import './styling/breaker.scss';
 
+import telegram from "../../assets/telegram-icon.png";
+import reddit from "../../assets/reddit-icon.png";
+import twitter from "../../assets/twitter-icon.png";
+import insta from "../../assets/instagram-icon.png";
+import email from "../../assets/email-icon.png";
+
 class Breaker extends React.Component {
     render() {
         return (
@@ -19,19 +25,16 @@ class Breaker extends React.Component {
                         <h1>Guide</h1>
                         <div className="container">
                             <span className="section sec">
-                                <p className="date">01/01/2020</p>
-                                <div className="node"></div>
-                                <p className="description">Lorem Ipsum</p>
+                                <div className="node"><p>Q2 <br /> 2020</p></div>
+                                <p className="description">Project Development</p>
                             </span>
                             <span className="section prim">
-                                <p className="date">01/01/2020</p>
-                                <div className="node"></div>
-                                <p className="description">Lorem Ipsum</p>
+                                <div className="node"><p>Q3 <br /> 2020</p></div>
+                                <p className="description">Public<br />Release</p>
                             </span>
                             <span className="section sec">
-                                <p className="date">01/01/2020</p>
-                                <div className="node"></div>
-                                <p className="description">Lorem Ipsum</p>
+                                <div className="node"><p>Q4 <br /> 2020</p></div>
+                                <p className="description">TMX<br />Presale</p>
                             </span>
                         </div>
                     </Col>
@@ -47,18 +50,23 @@ class Breaker extends React.Component {
                         <h1>Community</h1>
                         <div>
                             <span className="media telegram">
+                                <img src={ telegram } alt="telegram-logo"/>
                                 <p>Telegram</p>
                             </span>
                             <span className="media reddit">
+                                <img src={ reddit } alt="reddit-logo"/>
                                 <p>Reddit</p>
                             </span>
                             <span className="media twitter">
+                                <img src={ twitter } alt="twitter-logo"/>
                                 <p>Twitter</p>
                             </span>
                             <span className="media insta">
+                                <img src={ insta } alt="insta-logo"/>
                                 <p>Insta</p>
                             </span>
                             <span className="media email">
+                                <img src={ email } alt="email-logo"/>
                                 <p>Email</p>
                             </span>
                         </div>

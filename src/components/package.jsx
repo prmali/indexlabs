@@ -4,8 +4,8 @@ import React from 'react';
 import Info from './home/info';
 import Breaker from './home/breaker';
 
-// Crowdsale
-import CrowdsaleInfo from './crowdsale/info';
+// Token Sale
+import TokensaleInfo from './tokensale/info';
 
 // Governance
 import GovernanceInfo from './governance/governance';
@@ -13,6 +13,8 @@ import GovernanceInfo from './governance/governance';
 // Roadmap
 import RoadmapInfo from './roadmap/roadmap';
 
+// Index
+import IndexInfo from './indexes/info';
 
 const Home = () => {
     return(
@@ -23,10 +25,10 @@ const Home = () => {
     )
 }
 
-const Crowdsale = () => {
+const TokenSale = () => {
     return(
         <div>
-            <CrowdsaleInfo />
+            <TokensaleInfo />
         </div>
     )
 }
@@ -58,14 +60,14 @@ const Governance = () => {
 const Indexes = () => {
     return(
         <div>
-            <Info />
+            <IndexInfo />
         </div>
     )
 }
 
 export {
     Home,
-    Crowdsale,
+    TokenSale,
     Whitepaper,
     Roadmap,
     Governance,
