@@ -11,6 +11,7 @@ import {
     Link,
 } from 'react-router-dom';
 import './styling/footer.scss';
+import whitepaper from '../../assets/whitepaper.pdf';
 
 class Footer extends React.Component {
     render() {
@@ -33,9 +34,21 @@ class Footer extends React.Component {
                             <span><div className="format"></div><p>Plans</p></span>
                             <Nav vertical>
                                 <NavItem>
-                                    <NavLink tag={Link} to="/whitepaper">Whitepaper</NavLink>
+                                    <NavLink href={whitepaper} target="_blank">Whitepaper</NavLink>
                                     <NavLink tag={Link} to="/roadmap">Roadmap</NavLink>
                                     <NavLink tag={Link} to="/tokensale">Token Sale</NavLink>
+                                </NavItem>
+                            </Nav>
+                        </Col>
+
+                        <Col>
+                            <span><div className="format"></div><p>Community</p></span>
+                            <Nav vertical>
+                                <NavItem>
+                                    <NavLink href="https://telegram.org" target="_blank">Telegram</NavLink>
+                                    <NavLink href="https://reddit.com" target="_blank">Reddit</NavLink>
+                                    <NavLink href="https://medium.com" target="_blank">Medium</NavLink>
+                                    <NavLink href="https://twitter.com" target="_blank">Twitter</NavLink>
                                 </NavItem>
                             </Nav>
                         </Col>
@@ -52,6 +65,7 @@ class Footer extends React.Component {
                         </Col> */}
                     </Row>
                 </Container>
+                <p className="copyright">&copy; 2020 Index Labs LLC, All Rights Reserved.</p>
             </div>
         );
     }

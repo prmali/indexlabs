@@ -13,7 +13,7 @@ import './styling/breaker.scss';
 import telegram from "../../assets/telegram-icon.png";
 import reddit from "../../assets/reddit-icon.png";
 import twitter from "../../assets/twitter-icon.png";
-import insta from "../../assets/instagram-icon.png";
+import medium from "../../assets/medium-icon.png";
 import email from "../../assets/email-icon.png";
 
 class Breaker extends React.Component {
@@ -57,14 +57,15 @@ class Breaker extends React.Component {
                                 <img src={ reddit } alt="reddit-logo"/>
                                 <p>Reddit</p>
                             </span>
+                            <span className="media medium">
+                                <img src={ medium } alt="medium-logo"/>
+                                <p>Medium</p>
+                            </span>
                             <span className="media twitter">
                                 <img src={ twitter } alt="twitter-logo"/>
                                 <p>Twitter</p>
                             </span>
-                            <span className="media insta">
-                                <img src={ insta } alt="insta-logo"/>
-                                <p>Insta</p>
-                            </span>
+                            
                             <span className="media email">
                                 <img src={ email } alt="email-logo"/>
                                 <p>Email</p>

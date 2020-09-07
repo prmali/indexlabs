@@ -5,7 +5,7 @@ class GovernanceInfo extends React.Component {
     render() {
         return (
             <div className="governance-container">
-                <h1>Governance Initiative - Coming Soon</h1>
+                <h1>Governance Initiative - Coming Q2 2021</h1>
                 <h2>
                     The key piece in decentralizing the creation and management of indexes. 
                     The token gives governance platform users full control over all sector crypto indexes. 

@@ -22,12 +22,15 @@ $description-color: #C1C1C1;
     }
     margin-bottom: 50px;
     .card-container {
+        .row {
+            margin: 0 -50px;
+        }
         .col {
             margin: 30px 0;
             .card {
                 border-radius: 1rem !important;
                 padding-bottom: 10px;
-                box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
                 border: none;
                 .card-body {
                     padding-left: 10%;

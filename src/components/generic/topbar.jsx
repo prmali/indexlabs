@@ -13,6 +13,7 @@ import {
 } from 'react-router-dom';
 
 import logo from '../../assets/Logo.png';
+import whitepaper from '../../assets/whitepaper.pdf';
 import './styling/topbar.scss';
 
 const Topbar = (props) => {
@@ -34,7 +35,7 @@ const Topbar = (props) => {
                             <NavLink tag={Link} to="/tokensale">Token Sale</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink tag={Link} to="/whitepaper">Whitepaper</NavLink>
+                            <NavLink href={whitepaper} target="_blank">Whitepaper</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink tag={Link} to="/roadmap">Roadmap</NavLink>

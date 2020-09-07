@@ -7,6 +7,9 @@ import Breaker from './home/breaker';
 // Token Sale
 import TokensaleInfo from './tokensale/info';
 
+// Whitepaper
+import WhitepaperInfo from './whitepaper/whitepaper';
+
 // Governance
 import GovernanceInfo from './governance/governance';
 
@@ -33,13 +36,15 @@ const TokenSale = () => {
     )
 }
 
+/*
 const Whitepaper = () => {
     return(
         <div>
-            <Breaker />
+            <WhitepaperInfo />
         </div>
     )
 }
+*/
 
 const Roadmap = () => {
     return(
@@ -68,7 +73,6 @@ const Indexes = () => {
 export {
     Home,
     TokenSale,
-    Whitepaper,
     Roadmap,
     Governance,
     Indexes

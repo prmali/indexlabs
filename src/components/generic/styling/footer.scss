@@ -53,4 +53,13 @@ $content-color: #0066FF;
             }
         }
     }
+
+    .copyright {
+        font-size: 17.5px;
+        float: right;
+        margin-top: -15px;
+        margin-right: 10px;
+        color: $subtext-color;
+        font-weight: 400;
+    }
 }

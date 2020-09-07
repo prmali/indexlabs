@@ -12,7 +12,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { 
   Home,
   TokenSale,
-  Whitepaper,
   Roadmap,
   Governance,
   Indexes
@@ -26,7 +25,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={ Home } />
         <Route path="/tokensale" component={ TokenSale } />
-        <Route path="/whitepaper" component={ Whitepaper } />
+        {/* <Route path="/whitepaper" component={ Whitepaper } /> */}
         <Route path="/roadmap" component={ Roadmap } />
         <Route path="/governance" component={ Governance } />
         <Route path="/indexes" component={ Indexes } />

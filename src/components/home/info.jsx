@@ -14,9 +14,11 @@ import {
     Link,
 } from 'react-router-dom';
 import './styling/info.scss';
-const governanceIcon = require('./../../assets/Governance-Icon.png');
-const marketIcon = require('./../../assets/Market-Icon.png');
-const globeIcon = require('./../../assets/Globe-Icon.png');
+import whitepaper from '../../assets/whitepaper.pdf';
+
+const governanceIcon = require('../../assets/Governance-Icon.png');
+const marketIcon = require('../../assets/Market-Icon.png');
+const globeIcon = require('../../assets/Globe-Icon.png');
 
 class Info extends React.Component {
     render() {
@@ -65,7 +67,7 @@ class Info extends React.Component {
                         <p>learn more</p>
                     </span>
 
-                    <Button tag={Link} to="/whitepaper">Whitepaper</Button>
+                    <Button href={whitepaper} target="_">Whitepaper</Button>
                 </div>
             </div>
         );
