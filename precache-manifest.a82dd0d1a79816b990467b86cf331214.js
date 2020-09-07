@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87390f11c709e94f8e9746fdb0258c2d",
+    "revision": "b8626f88561c6d423b9d15fa957435d3",
     "url": "/indexlabs/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/indexlabs/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "576da276969eae403e8f",
-    "url": "/indexlabs/static/css/main.3db8c3bd.chunk.css"
+    "revision": "e15bafad5bdbe9c91b96",
+    "url": "/indexlabs/static/css/main.825e7daa.chunk.css"
   },
   {
     "revision": "9cc44321805006e35325",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/indexlabs/static/js/2.c8f14a27.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "576da276969eae403e8f",
-    "url": "/indexlabs/static/js/main.c13b4f72.chunk.js"
+    "revision": "e15bafad5bdbe9c91b96",
+    "url": "/indexlabs/static/js/main.de05a99f.chunk.js"
   },
   {
     "revision": "50a40a9e5f75e804498e",
@@ -76,7 +76,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/indexlabs/static/media/twitter-icon.2c6d632d.png"
   },
   {
-    "revision": "5c33bfd302786eb20087d528a99f2cc9",
-    "url": "/indexlabs/static/media/whitepaper.5c33bfd3.pdf"
+    "revision": "a1b5b7cdf164a83bddeca25a628bab18",
+    "url": "/indexlabs/static/media/whitepaper.a1b5b7cd.pdf"
   }
 ]);
