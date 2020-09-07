@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e1f42cd07c9a31fdfb7f953d3d77964",
+    "revision": "9dbb10a45a7d504ba2ff246783e84f5a",
     "url": "/indexlabs/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/indexlabs/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "6c011028e752bd93ede0",
+    "revision": "d69ece09e967152d465e",
     "url": "/indexlabs/static/css/main.039e652b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/indexlabs/static/js/2.c8f14a27.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c011028e752bd93ede0",
-    "url": "/indexlabs/static/js/main.632124c5.chunk.js"
+    "revision": "d69ece09e967152d465e",
+    "url": "/indexlabs/static/js/main.6d9cfd64.chunk.js"
   },
   {
     "revision": "50a40a9e5f75e804498e",
@@ -76,7 +76,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/indexlabs/static/media/twitter-icon.2c6d632d.png"
   },
   {
-    "revision": "a1b5b7cdf164a83bddeca25a628bab18",
-    "url": "/indexlabs/static/media/whitepaper.a1b5b7cd.pdf"
+    "revision": "ba72f665759a90460b72f5efd938bca7",
+    "url": "/indexlabs/static/media/whitepaper.ba72f665.pdf"
   }
 ]);
