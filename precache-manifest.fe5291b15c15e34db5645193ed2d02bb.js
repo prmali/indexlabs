@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8626f88561c6d423b9d15fa957435d3",
+    "revision": "8e1f42cd07c9a31fdfb7f953d3d77964",
     "url": "/indexlabs/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/indexlabs/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "e15bafad5bdbe9c91b96",
-    "url": "/indexlabs/static/css/main.825e7daa.chunk.css"
+    "revision": "6c011028e752bd93ede0",
+    "url": "/indexlabs/static/css/main.039e652b.chunk.css"
   },
   {
     "revision": "9cc44321805006e35325",
@@ -20,20 +20,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/indexlabs/static/js/2.c8f14a27.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e15bafad5bdbe9c91b96",
-    "url": "/indexlabs/static/js/main.de05a99f.chunk.js"
+    "revision": "6c011028e752bd93ede0",
+    "url": "/indexlabs/static/js/main.632124c5.chunk.js"
   },
   {
     "revision": "50a40a9e5f75e804498e",
     "url": "/indexlabs/static/js/runtime-main.d33f854c.js"
   },
   {
-    "revision": "6a6afee9883d805ad542d74ca5a787ac",
-    "url": "/indexlabs/static/media/Globe-Icon.6a6afee9.png"
+    "revision": "d20f7049688b52266622d6e65895c400",
+    "url": "/indexlabs/static/media/Globe-Icon.d20f7049.png"
   },
   {
-    "revision": "e4d14d11300d00bc443ffc940c6ae622",
-    "url": "/indexlabs/static/media/Governance-Icon.e4d14d11.png"
+    "revision": "6b30a690d2ad1c442998294972af405c",
+    "url": "/indexlabs/static/media/Governance-Icon.6b30a690.png"
   },
   {
     "revision": "c095653297a858bfdf00c9253d7c1de0",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/indexlabs/static/media/Main.bb85daa9.png"
   },
   {
-    "revision": "15ec27326b65148a974f7826a7c5cbba",
-    "url": "/indexlabs/static/media/Market-Icon.15ec2732.png"
+    "revision": "3a3c7bfc2cad4093e00be41d1239ecef",
+    "url": "/indexlabs/static/media/Market-Icon.3a3c7bfc.png"
   },
   {
     "revision": "411aec09e158ad579addd935532fe38d",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/indexlabs/static/media/reddit-icon.c5803eda.png"
   },
   {
-    "revision": "66ad64016f8624556bcd8fc976a3906d",
-    "url": "/indexlabs/static/media/roadmap-image.66ad6401.png"
+    "revision": "8fd3e94138f3510f5edc0175306165eb",
+    "url": "/indexlabs/static/media/roadmap-image.8fd3e941.png"
   },
   {
     "revision": "fecb06fcafca884654ac96f43595b180",
