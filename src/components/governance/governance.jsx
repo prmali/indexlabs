@@ -7,9 +7,10 @@ class GovernanceInfo extends React.Component {
             <div className="governance-container">
                 <h1>Governance Initiative - Coming Q2 2021</h1>
                 <h2>
-                    The key piece in decentralizing the creation and management of indexes. 
-                    The token gives governance platform users full control over all sector crypto indexes. 
-                    Holders of the governance token will be distributed all tokens of newly created sector crypto indexes.
+                The governance token is the key piece in decentralizing the creation and management of Adaptive Sector Crypto Indexes. 
+                The inherent voting power of the governance token allows for decentralized control of cryptocurrency indexes. 
+                Governance token owners will also make decisions relevant to the cryptocurrency index ecosystem. Holders of the 
+                governance token will be distributed all tokens of newly created Adaptive Sector Crypto Indexes.
                 </h2>
             </div>
         )

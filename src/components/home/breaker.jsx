@@ -22,7 +22,7 @@ class Breaker extends React.Component {
             <div className="breaker">
                 <Row md="3" sm="1" xs="1">
                     <Col className="guide">
-                        <h1>Guide</h1>
+                        <h1>Snapshot</h1>
                         <div className="container">
                             <span className="section sec">
                                 <div className="node"><p>Q2 <br /> 2020</p></div>
@@ -49,27 +49,27 @@ class Breaker extends React.Component {
                     <Col className="community">
                         <h1>Community</h1>
                         <div>
-                            <span className="media telegram">
+                            <a href="https://www.google.com" target="_blank" className="media telegram">
                                 <img src={ telegram } alt="telegram-logo"/>
                                 <p>Telegram</p>
-                            </span>
-                            <span className="media reddit">
+                            </a>
+                            <a href="https://www.google.com" target="_blank" className="media reddit">
                                 <img src={ reddit } alt="reddit-logo"/>
                                 <p>Reddit</p>
-                            </span>
-                            <span className="media medium">
+                            </a>
+                            <a href="https://www.google.com" target="_blank" className="media medium">
                                 <img src={ medium } alt="medium-logo"/>
                                 <p>Medium</p>
-                            </span>
-                            <span className="media twitter">
+                            </a>
+                            <a href="https://www.google.com" target="_blank" className="media twitter">
                                 <img src={ twitter } alt="twitter-logo"/>
                                 <p>Twitter</p>
-                            </span>
+                            </a>
                             
-                            <span className="media email">
+                            <a href="https://www.google.com" target="_blank" className="media email">
                                 <img src={ email } alt="email-logo"/>
                                 <p>Email</p>
-                            </span>
+                            </a>
                         </div>
                     </Col>
                 </Row>

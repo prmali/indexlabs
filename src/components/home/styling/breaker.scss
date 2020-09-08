@@ -9,6 +9,7 @@ $bg-color: #0066FF;
     .row {
         margin: 0;
     }
+
     h1 {
         color: white;
         font-weight: 800;
@@ -16,6 +17,7 @@ $bg-color: #0066FF;
         text-align: center;
         margin-top: 30px;
     }
+
     .guide {
         .container {
             margin-top: 10px;
@@ -134,6 +136,11 @@ $bg-color: #0066FF;
             img {
                 padding: 5px 0;
             }
+        }
+
+        .media:hover {
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+            transition-duration: 0.15s;
         }
     }
 }

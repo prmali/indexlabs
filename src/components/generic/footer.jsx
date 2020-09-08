@@ -65,7 +65,7 @@ class Footer extends React.Component {
                         </Col> */}
                     </Row>
                 </Container>
-                <p className="copyright">&copy; 2020 Index Labs LLC, All Rights Reserved.</p>
+                <p className="copyright">&copy; 2020 Index Labs LLC< br/> All Rights Reserved.</p>
             </div>
         );
     }

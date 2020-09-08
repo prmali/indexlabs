@@ -32,7 +32,7 @@ class Info extends React.Component {
                         <Col>
                             <Card>
                                 <CardBody>
-                                    <span><div className="format"></div><CardTitle>Crypto Indexes</CardTitle></span>
+                                    <div className="card-title-container"><div className="format"></div><CardTitle>Crypto Indexes</CardTitle></div>
                                     <CardImg className="globeIcon" top src={ globeIcon } />
                                     <CardText>Tokenized, Tradable Indexes Brought to the World of Cryptocurrency</CardText>
                                 </CardBody>
@@ -42,7 +42,7 @@ class Info extends React.Component {
                         <Col>
                             <Card>
                                 <CardBody>
-                                    <span><div className="format"></div><CardTitle>Market-Based Assets</CardTitle></span>
+                                    <div className="card-title-container"><div className="format"></div><CardTitle>Market-Based Assets</CardTitle></div>
                                     <CardImg className="marketIcon" top width="100%" src={ marketIcon } />
                                     <CardText>Index-Based Assets Built to Track and Trade the Cryptocurrency Market</CardText>
                                 </CardBody>
@@ -52,9 +52,9 @@ class Info extends React.Component {
                         <Col>
                             <Card>
                                 <CardBody>
-                                    <span><div className="format"></div><CardTitle>Decentralized Governance</CardTitle></span>
+                                    <div className="card-title-container"><div className="format"></div><CardTitle>Decentralized Governance</CardTitle></div>
                                     <CardImg className="governanceIcon" top src={ governanceIcon } />
-                                    <CardText>Full User Control Over Indexes with a Platform Governance Token</CardText>
+                                    <CardText>Full User Control Over Indexes With a Platform Governance Token</CardText>
                                 </CardBody>
                             </Card>
                         </Col>

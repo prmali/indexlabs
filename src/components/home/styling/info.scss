@@ -33,15 +33,18 @@ $description-color: #C1C1C1;
                 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
                 border: none;
                 .card-body {
-                    padding-left: 10%;
+                    //padding-left: 40px;
                     padding-top: 5%;
-                    height: 520px;
+                    //height: 520px;
+                    margin: auto;
+                    .card-title-container {
+                        padding-left: 10px;
+                    }
                 }
 
                 .format {
                     margin-top: 0px;
                     margin-left: -15px;
-                    margin-right: 5px;
                     background-color: $header-color;
                     width: 7.5px;
                     height: 65px;
@@ -52,7 +55,6 @@ $description-color: #C1C1C1;
                 .card-title {
                     font-size: 190%;
                     font-weight: 700;
-                    margin-right: -5%;
                     width: 220px;
                     color: $header-color;
                     margin-bottom: 10px;
@@ -67,21 +69,19 @@ $description-color: #C1C1C1;
                 }
 
                 .globeIcon {
-                    margin-left: 45px;
-                    width: 65%;
-                    margin-top: 35px;
-                    margin-bottom: 68.3px;
+                    margin: auto;
                 }
 
                 .marketIcon {
-                    margin-left: -1em;
+                    margin: auto;
                 }
 
                 .governanceIcon {
-                    margin-left: -15px;
+                    margin: auto;
                 }
 
                 .card-text {
+                    margin: auto;
                     margin-top: -50px;
                     font-size: 150%;
                     font-weight: 600;
@@ -90,6 +90,7 @@ $description-color: #C1C1C1;
             }
         }
     }
+    
     .learnContainer {
         width: 100%;
         margin: auto;
@@ -109,6 +110,10 @@ $description-color: #C1C1C1;
             border-radius: 15px;
             border-style: none;
             box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+        }
+        .btn-secondary:hover {
+            box-shadow: 0 25px 35px rgba(0, 0, 0, 0.3);
+            transition-duration: 0.15s;
         }
     }
 }
