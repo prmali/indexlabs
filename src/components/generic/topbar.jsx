@@ -35,7 +35,7 @@ const Topbar = (props) => {
                             <NavLink tag={Link} to="/tokensale">Token Sale</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href={whitepaper} target="_blank">Whitepaper</NavLink>
+                            <NavLink href={whitepaper} title="whitepaper" target="_blank">Whitepaper</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink tag={Link} to="/roadmap">Roadmap</NavLink>
