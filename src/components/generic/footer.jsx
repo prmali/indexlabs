@@ -45,10 +45,10 @@ class Footer extends React.Component {
                             <span><div className="format"></div><p>Community</p></span>
                             <Nav vertical>
                                 <NavItem>
-                                    <NavLink href="https://telegram.org" target="_blank">Telegram</NavLink>
-                                    <NavLink href="https://reddit.com" target="_blank">Reddit</NavLink>
-                                    <NavLink href="https://medium.com" target="_blank">Medium</NavLink>
-                                    <NavLink href="https://twitter.com" target="_blank">Twitter</NavLink>
+                                    <NavLink href="https://t.me/indexlabscommunity" target="_blank">Telegram</NavLink>
+                                    <NavLink href="https://www.reddit.com/user/indexlabs" target="_blank">Reddit</NavLink>
+                                    <NavLink href="https://medium.com/@indexlabs" target="_blank">Medium</NavLink>
+                                    <NavLink href="https://twitter.com/indexlabs_defi" target="_blank">Twitter</NavLink>
                                 </NavItem>
                             </Nav>
                         </Col>

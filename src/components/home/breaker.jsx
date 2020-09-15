@@ -49,24 +49,24 @@ class Breaker extends React.Component {
                     <Col className="community">
                         <h1>Community</h1>
                         <div>
-                            <a href="https://www.google.com" target="_blank" className="media telegram">
+                            <a href="https://t.me/indexlabscommunity" target="_blank" className="media telegram">
                                 <img src={ telegram } alt="telegram-logo"/>
                                 <p>Telegram</p>
                             </a>
-                            <a href="https://www.google.com" target="_blank" className="media reddit">
+                            <a href="https://www.reddit.com/user/indexlabs" target="_blank" className="media reddit">
                                 <img src={ reddit } alt="reddit-logo"/>
                                 <p>Reddit</p>
                             </a>
-                            <a href="https://www.google.com" target="_blank" className="media medium">
+                            <a href="https://medium.com/@indexlabs" target="_blank" className="media medium">
                                 <img src={ medium } alt="medium-logo"/>
                                 <p>Medium</p>
                             </a>
-                            <a href="https://www.google.com" target="_blank" className="media twitter">
+                            <a href="https://twitter.com/indexlabs_defi" target="_blank" className="media twitter">
                                 <img src={ twitter } alt="twitter-logo"/>
                                 <p>Twitter</p>
                             </a>
                             
-                            <a href="https://www.google.com" target="_blank" className="media email">
+                            <a href="mailto:contact@indexlabs.finance" target="_blank" className="media email">
                                 <img src={ email } alt="email-logo"/>
                                 <p>Email</p>
                             </a>
