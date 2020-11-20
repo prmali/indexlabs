@@ -25,16 +25,16 @@ class Breaker extends React.Component {
                         <h1>Snapshot</h1>
                         <div className="container">
                             <span className="section sec">
-                                <div className="node"><p>Q2 <br /> 2020</p></div>
-                                <p className="description">Project Development</p>
+                                <div className="node"><p>Q3 <br /> 2020</p></div>
+                                <p className="description">Public Release</p>
                             </span>
                             <span className="section prim">
-                                <div className="node"><p>Q3 <br /> 2020</p></div>
-                                <p className="description">Public<br />Release</p>
+                                <div className="node"><p>Q4 <br /> 2020</p></div>
+                                <p className="description">TMX<br />Distribution</p>
                             </span>
                             <span className="section sec">
-                                <div className="node"><p>Q4 <br /> 2020</p></div>
-                                <p className="description">TMX<br />Presale</p>
+                                <div className="node"><p>Q1 <br /> 2021</p></div>
+                                <p className="description">Governance<br />Testing</p>
                             </span>
                         </div>
                     </Col>

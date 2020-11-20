@@ -11,7 +11,7 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { 
   Home,
-  TokenSale,
+  //TokenSale,
   Roadmap,
   Governance,
   Indexes
@@ -24,8 +24,8 @@ ReactDOM.render(
       <Topbar />
       <Switch>
         <Route exact path="/" component={ Home } />
-        <Route path="/tokensale" component={ TokenSale } />
-        {/* <Route path="/whitepaper" component={ Whitepaper } /> */}
+        {/* <Route path="/tokensale" component={ TokenSale } />
+        <Route path="/whitepaper" component={ Whitepaper } /> */}
         <Route path="/roadmap" component={ Roadmap } />
         <Route path="/governance" component={ Governance } />
         <Route path="/indexes" component={ Indexes } />
