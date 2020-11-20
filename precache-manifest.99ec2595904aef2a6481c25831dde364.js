@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "977756759688fc2065148ed56ec9932e",
+    "revision": "0a30f1785d253f5e428dcb76ebad55bd",
     "url": "/index.html"
   },
   {
-    "revision": "9cc44321805006e35325",
+    "revision": "e72d349f0da2bb25a0e5",
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "c114c0a40908f16c6669",
-    "url": "/static/css/main.0c9f1d3b.chunk.css"
+    "revision": "18779f64d2f67dcef4dc",
+    "url": "/static/css/main.a13566b4.chunk.css"
   },
   {
-    "revision": "9cc44321805006e35325",
-    "url": "/static/js/2.c8f14a27.chunk.js"
+    "revision": "e72d349f0da2bb25a0e5",
+    "url": "/static/js/2.59550360.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.c8f14a27.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.59550360.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c114c0a40908f16c6669",
-    "url": "/static/js/main.15a85342.chunk.js"
+    "revision": "18779f64d2f67dcef4dc",
+    "url": "/static/js/main.812aac82.chunk.js"
   },
   {
     "revision": "66ebdc5490bf25d81731",
@@ -40,10 +40,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Logo.c0956532.png"
   },
   {
-    "revision": "bb85daa98e7a74b3c25a11d31ab77072",
-    "url": "/static/media/Main.bb85daa9.png"
-  },
-  {
     "revision": "3a3c7bfc2cad4093e00be41d1239ecef",
     "url": "/static/media/Market-Icon.3a3c7bfc.png"
   },
@@ -60,23 +56,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/reddit-icon.c5803eda.png"
   },
   {
-    "revision": "8fd3e94138f3510f5edc0175306165eb",
-    "url": "/static/media/roadmap-image.8fd3e941.png"
+    "revision": "f58639f0c95360945c80c850bf1a1d61",
+    "url": "/static/media/roadmap-image.f58639f0.png"
   },
   {
     "revision": "fecb06fcafca884654ac96f43595b180",
     "url": "/static/media/telegram-icon.fecb06fc.png"
   },
   {
-    "revision": "1684e981da340a762203cf85289b324b",
-    "url": "/static/media/token-allocation.1684e981.png"
-  },
-  {
     "revision": "2c6d632da09cb9b7c001f7f06e3fcf4a",
     "url": "/static/media/twitter-icon.2c6d632d.png"
   },
   {
-    "revision": "ba72f665759a90460b72f5efd938bca7",
-    "url": "/static/media/whitepaper.ba72f665.pdf"
+    "revision": "bdb23b35f92a8946bfe5e0099cabcc9d",
+    "url": "/static/media/whitepaper.bdb23b35.pdf"
   }
 ]);
