@@ -51,19 +51,12 @@ const ProjectLabel = styled.p`
 	text-align: center;
 `;
 
-const SocialContainer = styled.div`
-	width: 25%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-`;
-
 const Home = () => {
 	return (
 		<section>
 			<Heading>Projects</Heading>
 			<Container>
-				<AnchorWrapper href="gweiface.com">
+				<AnchorWrapper href="https://www.gweiface.com">
 					<ImageContainer>
 						<Image></Image>
 					</ImageContainer>
