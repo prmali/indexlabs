@@ -89,7 +89,7 @@ const Home = () => {
 				</a>
 			</Container>
 			<p style={{ textAlign: "right", paddingRight: "30px" }}>
-				© 2021 IndexLabs LLC
+				© 2021 Index Labs LLC
 			</p>
 		</section>
 	);
