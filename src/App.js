@@ -1,13 +1,14 @@
-import React from 'react';
-import './App.css';
-import Topbar from './components/generic/topbar.jsx';
+import React from "react";
+import "./App.css";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+
+import Home from "./screens/Home";
+
+library.add(fab);
 function App() {
-  return (
-    <div>
-      <Topbar />
-    </div>
-  );
+	return <Home />;
 }
 
 export default App;
