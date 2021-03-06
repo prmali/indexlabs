@@ -1,36 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.a13566b4.chunk.css",
-    "main.js": "/static/js/main.812aac82.chunk.js",
-    "main.js.map": "/static/js/main.812aac82.chunk.js.map",
+    "main.css": "/static/css/main.6a4790c2.chunk.css",
+    "main.js": "/static/js/main.8b3d51e3.chunk.js",
+    "main.js.map": "/static/js/main.8b3d51e3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.435b1587.js",
     "runtime-main.js.map": "/static/js/runtime-main.435b1587.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.59550360.chunk.js": "/static/js/2.59550360.chunk.js",
-    "static/js/2.59550360.chunk.js.map": "/static/js/2.59550360.chunk.js.map",
+    "static/js/2.df547555.chunk.js": "/static/js/2.df547555.chunk.js",
+    "static/js/2.df547555.chunk.js.map": "/static/js/2.df547555.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.99ec2595904aef2a6481c25831dde364.js": "/precache-manifest.99ec2595904aef2a6481c25831dde364.js",
+    "precache-manifest.b4c14ba906408238bb8d4130e456a35c.js": "/precache-manifest.b4c14ba906408238bb8d4130e456a35c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.a13566b4.chunk.css.map": "/static/css/main.a13566b4.chunk.css.map",
-    "static/js/2.59550360.chunk.js.LICENSE.txt": "/static/js/2.59550360.chunk.js.LICENSE.txt",
-    "static/media/Globe-Icon.png": "/static/media/Globe-Icon.d20f7049.png",
-    "static/media/Governance-Icon.png": "/static/media/Governance-Icon.6b30a690.png",
-    "static/media/Logo.png": "/static/media/Logo.c0956532.png",
-    "static/media/Market-Icon.png": "/static/media/Market-Icon.3a3c7bfc.png",
-    "static/media/email-icon.png": "/static/media/email-icon.411aec09.png",
-    "static/media/medium-icon.png": "/static/media/medium-icon.610a36a7.png",
-    "static/media/reddit-icon.png": "/static/media/reddit-icon.c5803eda.png",
-    "static/media/roadmap-image.png": "/static/media/roadmap-image.f58639f0.png",
-    "static/media/telegram-icon.png": "/static/media/telegram-icon.fecb06fc.png",
-    "static/media/twitter-icon.png": "/static/media/twitter-icon.2c6d632d.png",
-    "static/media/whitepaper.pdf": "/static/media/whitepaper.bdb23b35.pdf"
+    "static/css/main.6a4790c2.chunk.css.map": "/static/css/main.6a4790c2.chunk.css.map",
+    "static/js/2.df547555.chunk.js.LICENSE.txt": "/static/js/2.df547555.chunk.js.LICENSE.txt",
+    "static/media/composite.png": "/static/media/composite.81893393.png"
   },
   "entrypoints": [
     "static/js/runtime-main.435b1587.js",
-    "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.59550360.chunk.js",
-    "static/css/main.a13566b4.chunk.css",
-    "static/js/main.812aac82.chunk.js"
+    "static/js/2.df547555.chunk.js",
+    "static/css/main.6a4790c2.chunk.css",
+    "static/js/main.8b3d51e3.chunk.js"
   ]
 }
